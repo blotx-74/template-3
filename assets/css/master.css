@@ -1326,10 +1326,10 @@ ul {
     padding: 20px 0;
     text-align: center;
     border-radius: 6px;
-    -webkit-border-radius: ;
-    -moz-border-radius: ;
-    -ms-border-radius: ;
-    -o-border-radius: ;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
     -webkit-transition: var(--main-transition);
     -moz-transition: var(--main-transition);
     -ms-transition: var(--main-transition);
@@ -1807,7 +1807,7 @@ ul {
     resize: none;
     height: 200px;
 }
-input[type="submit"]{
+.form input[type="submit"]{
     cursor: pointer;
     background-color: var(--main-color-alt);
     text-align: center;
