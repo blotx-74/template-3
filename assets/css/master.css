@@ -883,6 +883,12 @@ ul {
     }
 
 }
+@media (MAX-WIDTH : 767px){
+    .team .container .box img{
+        width: 270px;
+        height: 270px;
+    }
+}
 
 .team .container .box::before, .team .container .box::after {
     content: "";
@@ -1614,7 +1620,7 @@ ul {
     padding: 10px;
 
     & img {
-        max-width: 100%;
+        max-width: 316px;
     }
 
     & .info {
