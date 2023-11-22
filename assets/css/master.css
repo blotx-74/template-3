@@ -884,7 +884,7 @@ ul {
 
 }
 @media (MAX-WIDTH : 767px){
-    .team .container .box img{
+    .team .container .box .data img{
         width: 270px;
         height: 270px;
     }
