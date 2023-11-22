@@ -16,7 +16,6 @@
 
 body {
     font-family: "Cairo", sans-serif;
-    -webkit-text-size-adjust: 100%;
 }
 
 html {
@@ -1305,12 +1304,15 @@ ul {
 
     .events .container .subscribe form input:last-child {
         position: absolute;
-        left: 50%;
-        transform: translateX(50%);
-        -webkit-transform: translateX(50%);
-        -moz-transform: translateX(50%);
-        -ms-transform: translateX(50%);
-        -o-transform: translateX(50%);
+    left: 50%;
+    top: 30px;
+    margin: 0;
+    width: 120px;
+    transform: translateX(50%);
+    -webkit-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    -o-transform: translateX(50%);
     }
 
 }
@@ -1822,6 +1824,21 @@ ul {
     -moz-transition: var(--main-transition);
     -ms-transition: var(--main-transition);
     -o-transition: var(--main-transition);
+}
+@media (max-width : 767px){
+    .form input[type="submit"]{
+        width: 240px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
+    .b-{
+        width: 100%;
+        display: inline-flex;
+        justify-content: center;
+    }
 }
 input[type="submit"]:hover{
     background-color: var(--main-color);
